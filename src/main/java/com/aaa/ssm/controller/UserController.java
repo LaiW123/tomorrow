@@ -15,7 +15,7 @@ public class UserController {
   @ResponseBody
     @RequestMapping("/userlist")
   public Object list(){
-
+      System.out.println("aaaa");
        return userService.getUserList();
 
    }

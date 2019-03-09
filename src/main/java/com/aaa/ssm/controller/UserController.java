@@ -18,5 +18,6 @@ public class UserController {
 
        return userService.getUserList();
 
+
    }
 }
